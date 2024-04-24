@@ -1,0 +1,2 @@
+- [Query Practice](https://docs.google.com/spreadsheets/d/11LwtGFFUjcjaanRR5_rwqxiT3yMti0DSjN_aN6Y6mys/edit#gid=665770131)
+- [Basic Spreadsheet](https://docs.google.com/spreadsheets/d/1Kox1kgIqnF-oTAsBHoYbVJalNdLK0BHd5ano_fCZNRo/edit#gid=986571413)
