@@ -1,1 +1,2 @@
-# Data-Analyst-Portfolio
+# About Me
+Graduated from Chulalongkorn University with a degree in Bachelor of Arts (English major) with 3 years of experience in content creation and online course and in-person bootcamp development. Proven ability to research, analyze information, and translate complex concepts into clear and concise communication. Recently completed a 6-month data science bootcamp from DataRockie, gaining a strong foundation in SQL, Python, data visualization, and dashboard creation tools like Looker Studio and Tableau Public. Eager to leverage these skills and passion for data analysis to contribute valuable insights to a data-focused team.
