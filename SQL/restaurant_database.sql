@@ -77,12 +77,12 @@ INSERT INTO menu VALUES
 -- Total sales by month --
 SELECT 
 date_format(customer_order.order_date,'%m') AS month_number,
-date_format(customer_order.order_date,'%M') AS order_month,
+date_format(customer_order.order_date,'%M') AS month_name,
 SUM(menu.menu_price*customer_order.quantity) AS sales
 FROM customer_order
 JOIN menu ON 
   customer_order.menu_id = menu.menu_id
-GROUP BY order_month
+GROUP BY month_name
 ORDER BY month_number;
 
 -- Most ordered menu by region --
