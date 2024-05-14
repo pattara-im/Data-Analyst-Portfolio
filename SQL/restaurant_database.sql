@@ -75,13 +75,15 @@ INSERT INTO menu VALUES
   (30, 04, 04, 3, "2023-03-20");
   
 -- Total sales by month --
-SELECT date_format(customer_order.order_date,'%M') AS order_month,
+SELECT 
+date_format(customer_order.order_date,'%m') AS month_number,
+date_format(customer_order.order_date,'%M') AS order_month,
 SUM(menu.menu_price*customer_order.quantity) AS sales
 FROM customer_order
 JOIN menu ON 
   customer_order.menu_id = menu.menu_id
 GROUP BY order_month
-ORDER BY sales DESC;
+ORDER BY month_number;
 
 -- Most ordered menu by region --
 SELECT m.region AS region, m.menu_name AS menu_name, MAX(m.quantity) AS quantity
